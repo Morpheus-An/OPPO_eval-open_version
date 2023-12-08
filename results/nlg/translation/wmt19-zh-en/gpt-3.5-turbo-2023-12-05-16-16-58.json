@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "name": "WMT19 - zh2en"
+  },
+  "model": "gpt-3.5-turbo",
+  "n_shot": 0,
+  "conclusion": {
+    "_avg_score": 0.161692143534558,
+    "_count": 1
+  },
+  "record": [
+    {
+      "sample": [
+        "电力通讯仍中断 印尼强震伴海啸救援困难重重"
+      ],
+      "prompt_params": {
+        "origin": "电力通讯仍中断 印尼强震伴海啸救援困难重重",
+        "answer": ""
+      },
+      "prompt": "Please translate the Chinese sentence into English.\n\nChinese：\n电力通讯仍中断 印尼强震伴海啸救援困难重重\nEnglish:\n\n",
+      "llm_answer": "Power and communication are still interrupted, with tremendous difficulties in rescuing due to the powerful earthquake and tsunami in Indonesia.",
+      "std_answer": "Power Communication Still in interruption. Difficulties in Rescue due to Strong Earthquakes with Tsunami in Indonesia.",
+      "score": 0.161692143534558
+    }
+  ],
+  "icl_samples": [],
+  "time": "2023-12-05-16-16-58"
+}

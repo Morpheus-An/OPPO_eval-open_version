@@ -1,0 +1,17 @@
+https://www.statmt.org/wmt19/translation-task.html
+官方推荐使用 wmt18 的测试集作为 dev 集。
+
+选取了wmt19新闻翻译测试集中的中英翻译数据，并将提供的xml文件预处理成json文件。
+下面提供了几个样例。
+
+zh-en:
+{
+	"ref": "The embassy appeals to the compatriots and enterprises in Mongolia to contact the Chinese embassy in Mongolia at first time for any relevant clues.",
+	"src": "使馆呼吁在蒙同胞和企业，如得知相关线索，请第一时间同中国驻蒙古使馆联系。"
+}
+
+en-zh:
+{
+	"ref": "在与库恩和几位参议员的对话后，弗拉克作出了决定。",
+	"src": "After a conversation with Coons and several senators afterwards, Flake made his decision."
+}

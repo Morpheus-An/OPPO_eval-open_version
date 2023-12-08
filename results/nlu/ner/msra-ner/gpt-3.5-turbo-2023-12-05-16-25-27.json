@@ -1,0 +1,15 @@
+{
+  "dataset": {
+    "name": "MSRA - NER"
+  },
+  "model": "gpt-3.5-turbo",
+  "n_shot": 0,
+  "conclusion": {
+    "_avg_score": NaN,
+    "_count": 0
+  },
+  "record": [],
+  "icl_samples": [],
+  "exception": "Invalid header value b'Bearer sk-yVeTpN6bLqiLvBcLaeva0P5q88Q1RqfFo6o2UNsbx7kafW6k\\n'",
+  "time": "2023-12-05-16-25-27"
+}

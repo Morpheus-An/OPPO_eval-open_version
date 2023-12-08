@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "name": "WMT19 - en2zh"
+  },
+  "model": "gpt-3.5-turbo",
+  "n_shot": 0,
+  "conclusion": {
+    "_avg_score": 0.22989612424618716,
+    "_count": 1
+  },
+  "record": [
+    {
+      "sample": [
+        "Much of the central and eastern U.S. is expected to see a warm start to October with widespread 80s from the Southern Plains to parts of the Northeast."
+      ],
+      "prompt_params": {
+        "origin": "Much of the central and eastern U.S. is expected to see a warm start to October with widespread 80s from the Southern Plains to parts of the Northeast.",
+        "answer": ""
+      },
+      "prompt": "请你把下面的英文句子翻译成中文。翻译的要求是信、达、雅，你可以对语序、用词等方面进行适当的调整。\n\n英文：\nMuch of the central and eastern U.S. is expected to see a warm start to October with widespread 80s from the Southern Plains to parts of the Northeast.\n中文:\n\n",
+      "llm_answer": "预计美国中部和东部大部分地区在十月初将迎来温暖的天气，从南部平原到东北部地区将普遍出现80多摄氏度的高温。",
+      "std_answer": "预计美国中部和东部的大部分地区将在 10 月份开始迎来暑热，从南部平原到东北部分地区，大范围温度将达到 80 华氏度（约 27 摄氏度）。",
+      "score": 0.22989612424618716
+    }
+  ],
+  "icl_samples": [],
+  "time": "2023-12-05-16-17-02"
+}

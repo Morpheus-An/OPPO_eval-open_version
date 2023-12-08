@@ -1,0 +1,29 @@
+https://sites.google.com/view/native-chinese-reader/datasheets-for-datasets
+https://openreview.net/pdf?id=GEcWUTN1v1v
+
+demo 使用的测试数据从 NCR 原数据重组而来。
+原数据包含四种文本，现代文、现代诗、文言文和古诗。
+我们将文言文和古诗分离出来，构成单独的两个数据集，作为中文特性维度的测试数据。
+为保证数据量，我们将 test 集和 dev 集混在一起。统计数据如下：
+
+test:
+modern 756
+classic-passage 283
+classic-poetry 34
+
+dev:
+modern 737
+classic-passage 234
+classic-poetry 29
+
+最终得到的数据总量为
+
+final:
+modern 1493
+classic-passage 517
+classic-poetry 63
+
+在数据集中使用的文件夹命名为
+modern             ncr-xdw    ncr-文言文
+classic-passage    ncr-wyw    ncr-现代文
+classic-poetry     ncr-gs     ncr-古诗
